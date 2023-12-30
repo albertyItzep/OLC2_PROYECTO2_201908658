@@ -1,0 +1,20 @@
+if(a == 1) goto L2;
+goto L3;
+L2:
+print("Es numero 1");
+goto L1;
+L3:
+if(a == 2) goto L4;
+goto L5;
+L4:
+print("Es numero 2");
+goto L1;
+L5:
+if(a == 3) goto L6;
+goto L7;
+L6:
+print("Es numero 3");
+goto L1;
+L7:
+print("Es el default");
+L1:
